@@ -46,9 +46,11 @@ public class Event01 {
                 if (gm.player.playerLife != 1) {
                     gm.ui.messageText.setText(HIT_BACK_MESSAGE);
                     gm.player.playerLife--;
+//                    gm.player.updatePlayerStatus();
                 } else {
                     gm.ui.messageText.setText(FOOL_MESSAGE);
                     gm.player.playerLife--;
+                    gm.sceneChanger.showGameOverScreen(1);
                 }
             } else if (gm.player.hasSword == 1) {
                 if (gm.player.hasLantern == 0) { // Check if the player already has the lantern

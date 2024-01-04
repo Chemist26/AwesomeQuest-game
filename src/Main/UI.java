@@ -19,11 +19,17 @@ public class UI {
     JPanel inventoryPanel;
     public JLabel swordLabel, shieldLabel, lanternLabel;
 
+    // GAME OVER UI
+    public JLabel titleLabel;
+    public JButton restartButton;
+
     public UI(GameManager gm) {
         this.gm = gm;
         createMainField();
         createPlayerField();
+        createGameOverField();
         generateScene();
+
         window.setVisible(true);
     }
 
@@ -57,6 +63,7 @@ public class UI {
         bgPanel[bgNum].setBounds(50, 50, 700, 350);
         bgPanel[bgNum].setBackground(Color.black);
         bgPanel[bgNum].setLayout(null);
+        bgPanel[bgNum].setVisible(false);
         window.add(bgPanel[bgNum]);
 
         // Creates a label for displaying the background image
@@ -215,7 +222,25 @@ public class UI {
         inventoryPanel.add(lanternLabel);
     }
 
+    public void createGameOverField() {
+        titleLabel = new JLabel("", JLabel.CENTER);
+        titleLabel.setBounds(200, 150, 400, 200);
+        titleLabel.setForeground(Color.red);
+        titleLabel.setFont(new Font("Times New Roman", Font.PLAIN, 70));
+        titleLabel.setVisible(false);
+        window.add(titleLabel);
 
+        restartButton = new JButton();
+        restartButton.setBounds(340, 320, 120, 50);
+        restartButton.setBorder(null);
+        restartButton.setBackground(null);
+        restartButton.setForeground(Color.white);
+        restartButton.setFocusPainted(false);
+        restartButton.addActionListener(gm.actionHandler);
+        restartButton.setActionCommand("restart");
+        restartButton.setVisible(false);
+        window.add(restartButton);
+    }
 
     public void generateScene() {
         //SCENE 1
@@ -243,6 +268,10 @@ public class UI {
         createArrowButton(2, 646, 110, 50, 50, "rightArrow.png", "goScene1");
         bgPanel[2].add(bgLabel[2]);
 
+        //SCENE 3
+        createBackground(3, "cave-inside.png");
+        createArrowButton(3, 650, 150, 50, 50, "rightArrow.png", "goScene3");
+        bgPanel[3].add((bgLabel[3]));
 
     }
 

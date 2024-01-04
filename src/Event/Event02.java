@@ -22,7 +22,7 @@ public class Event02 {
             gm.ui.messageText.setText("It's too dark to enter.");
         }
         else {
-
+            gm.sceneChanger.showScene3();
         }
     }
 }

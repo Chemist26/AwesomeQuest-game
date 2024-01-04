@@ -1,0 +1,127 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"4ca7bb3b-b566-44c4-a1c2-c56cc63b878b\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/images/nightsky.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/images/skyBackground.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Event/Event01.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Event/Event01.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/ActionHandler.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/ActionHandler.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/GameManager.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/GameManager.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/Player.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/Player.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/SceneChanger.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/SceneChanger.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/UI.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/UI.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Test-projects\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Test-projects\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2aNfFAFv2XG1km3v6TxrHnswHMt\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"Main\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\User\\Desktop\\GitHub files\\AwesomeQuest\\images\" />\r\n      <recent name=\"C:\\Users\\User\\Desktop\\GitHub files\\AwesomeQuest\\res\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"GameManager\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main.GameManager\" />\r\n      <module name=\"AwesomeQuest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Main.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"AwesomeQuest\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"AwesomeQuest\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.GameManager\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"4ca7bb3b-b566-44c4-a1c2-c56cc63b878b\" name=\"Changes\" comment=\"\" />\r\n      <created>1704163851041</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1704163851041</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,16 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="4ca7bb3b-b566-44c4-a1c2-c56cc63b878b" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/images/nightsky.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/images/skyBackground.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Event/Event01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event/Event01.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ActionHandler.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GameManager.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Player.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SceneChanger.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Player.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/../Test-projects" beforeDir="false" afterPath="$PROJECT_DIR$/../Test-projects" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -31,7 +23,7 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="2aNfFAFv2XG1km3v6TxrHnswHMt" />
+   <component name="ProjectViewState">
+@@ -72,19 +64,6 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration default="true" type="JetRunConfigurationType">
+-      <module name="AwesomeQuest" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+-      <module name="AwesomeQuest" />
+-      <option name="filePath" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Application.GameManager" />
+@@ -102,4 +81,49 @@
+     </task>
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="RECENT_FILTERS">
++      <map>
++        <entry key="Branch">
++          <value>
++            <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="master" />
++                </option>
++              </RecentGroup>
++            </list>
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="master" />
++                      </list>
++                    </value>
++                  </entry>
++                  <entry key="roots">
++                    <value>
++                      <list>
++                        <option value="$PROJECT_DIR$" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+ </project>
+\ No newline at end of file
+Index: src/Main/Player.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Main;\r\n\r\npublic class Player {\r\n    GameManager gm;\r\n\r\n    public int playerMaxLife;\r\n    public int playerLife;\r\n\r\n    public int hasSword;\r\n    public int hasShield;\r\n    public int hasLantern;\r\n\r\n    public Player(GameManager gm) {\r\n        this.gm = gm;\r\n    }\r\n\r\n    public void setPlayerDefaultStatus() {\r\n        playerMaxLife = 5;\r\n        playerLife = 3;\r\n        hasSword = 0;\r\n        hasShield = 0;\r\n        hasLantern = 0;\r\n\r\n        updatePlayerStatus();\r\n    }\r\n\r\n    public void updatePlayerStatus() {\r\n        if (gm == null || gm.ui == null || gm.ui.lifeLabel == null) {\r\n            System.out.println(\"GameManager, UI, or lifeLabel is null.\");\r\n            return;\r\n        }\r\n\r\n        // REMOVE ALL LIFE ICON\r\n        int i = 1;\r\n        while (i <= 5 && i < gm.ui.lifeLabel.length) {\r\n            if (gm.ui.lifeLabel[i] != null) {\r\n                gm.ui.lifeLabel[i].setVisible(false);\r\n            }\r\n            i++;\r\n        }\r\n\r\n        // DISPLAY HEARTS UP TO playerLife\r\n        int lifeCount = playerLife;\r\n        while (lifeCount > 0 && lifeCount <= gm.ui.lifeLabel.length) {\r\n            if (gm.ui.lifeLabel[lifeCount] != null) {\r\n                gm.ui.lifeLabel[lifeCount].setVisible(true);\r\n            }\r\n            lifeCount--;\r\n        }\r\n\r\n        \r\n\r\n        // CHECK PLAYER ITEMS\r\n        if (hasSword == 0 && gm.ui.swordLabel != null) {\r\n            gm.ui.swordLabel.setVisible(false);\r\n        }\r\n        if (hasSword == 1 && gm.ui.swordLabel != null) {\r\n            gm.ui.swordLabel.setVisible(true);\r\n        }\r\n        if (hasShield == 0 && gm.ui.shieldLabel != null) {\r\n            gm.ui.shieldLabel.setVisible(false);\r\n        }\r\n        if (hasShield == 1 && gm.ui.shieldLabel != null) {\r\n            gm.ui.shieldLabel.setVisible(true);\r\n        }\r\n        if (hasLantern == 0 && gm.ui.lanternLabel != null) {\r\n            gm.ui.lanternLabel.setVisible(false);\r\n        }\r\n        if (hasLantern == 1 && gm.ui.lanternLabel != null) {\r\n            gm.ui.lanternLabel.setVisible(true);\r\n        }\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main/Player.java b/src/Main/Player.java
+--- a/src/Main/Player.java	
++++ b/src/Main/Player.java	
+@@ -48,7 +48,7 @@
+             lifeCount--;
+         }
+ 
+-        
++
+ 
+         // CHECK PLAYER ITEMS
+         if (hasSword == 0 && gm.ui.swordLabel != null) {

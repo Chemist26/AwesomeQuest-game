@@ -37,7 +37,8 @@ public class ActionHandler implements ActionListener {
             // Change scenes
             case "goScene1" : gm.sceneChanger.showScene1(); break;
             case "goScene2" : gm.sceneChanger.showScene2(); break;
-
+            // OTHERS
+            case "restart" : gm.sceneChanger.exitGameOverScreen(); gm.sceneChanger.showScene1(); break;
         }
     }
 }

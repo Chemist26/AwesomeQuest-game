@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca7bb3b-b566-44c4-a1c2-c56cc63b878b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/nightsky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/skyBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Event/Event01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event/Event01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ActionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GameManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SceneChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Event/Event02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event/Event02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/ActionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/SceneChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test-projects" beforeDir="false" afterPath="$PROJECT_DIR$/../Test-projects" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2aNfFAFv2XG1km3v6TxrHnswHMt" />
   <component name="ProjectViewState">
@@ -87,5 +86,16 @@
       <updated>1704163851041</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
