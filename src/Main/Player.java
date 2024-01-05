@@ -9,7 +9,6 @@ public class Player {
     public int hasSword;
     public int hasShield;
     public int hasLantern;
-    private boolean isCavemanDefeated;
 
 
     public Player(GameManager gm) {
@@ -21,7 +20,7 @@ public class Player {
         playerLife = 3;
         hasSword = 0;
         hasShield = 0;
-        hasLantern = 1;
+        hasLantern = 0;
 
         updatePlayerStatus();
     }
