@@ -22,6 +22,7 @@ public class Event01 {
             gm.ui.messageText.setText("You rest at the house. \n(Your life has recovered)");
             gm.player.playerLife++;
             gm.player.updatePlayerStatus();
+            gm.playSE(gm.healSound);
         } else {
             gm.ui.messageText.setText("Your life is full.");
         }
@@ -33,6 +34,7 @@ public class Event01 {
 
     public void talkNPC(){
         gm.ui.messageText.setText("Caveman: Don't go any further without a weapon! \nYou should check the chests around here!");
+        gm.playSE(gm.talkNPCSound);
     }
 
     public void attackNPC() {
@@ -46,7 +48,9 @@ public class Event01 {
                 if (gm.player.playerLife != 1) {
                     gm.ui.messageText.setText(HIT_BACK_MESSAGE);
                     gm.player.playerLife--;
-//                    gm.player.updatePlayerStatus();
+//
+                    gm.playSE(gm.attackNPCSound);
+                    gm.playSE(gm.hitSound);
                 } else {
                     gm.ui.messageText.setText(FOOL_MESSAGE);
                     gm.player.playerLife--;
@@ -56,13 +60,18 @@ public class Event01 {
                 if (gm.player.hasLantern == 0) { // Check if the player already has the lantern
                     gm.ui.messageText.setText(DEFEAT_MESSAGE);
                     gm.player.hasLantern = 1;
+
+                    gm.playSE(gm.defeatNPCSound);
+                    gm.playSE(gm.hitSound);
                 } else {
                     gm.ui.messageText.setText(LEAVE_ALONE_MESSAGE);
+                    gm.playSE(gm.leaveNPCSound);
                 }
             }
             gm.player.updatePlayerStatus();
         } else {
             gm.ui.messageText.setText(LEAVE_ALONE_MESSAGE);
+            gm.playSE(gm.leaveNPCSound);
         }
     }
 
@@ -84,6 +93,7 @@ public class Event01 {
             gm.ui.messageText.setText("You open the chest and find a sword!");
             gm.player.hasSword = 1;
             gm.player.updatePlayerStatus();
+            gm.playSE(gm.itemSound);
         } else {
             gm.ui.messageText.setText("There is nothing inside...");
         }

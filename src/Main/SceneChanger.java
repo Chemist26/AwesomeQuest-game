@@ -11,6 +11,10 @@ public class SceneChanger {
         gm.ui.bgPanel[1].setVisible(true);
         gm.ui.bgPanel[2].setVisible(false);
         gm.ui.messageText.setText("Lets defeat the Dungeon Master and save the world!");
+
+        gm.stopMusic(gm.currentMusic);
+        gm.currentMusic = gm.fieldMusic;
+        gm.playMusic(gm.currentMusic);
     }
 
     public void showScene2(){
@@ -18,9 +22,14 @@ public class SceneChanger {
         gm.ui.bgPanel[2].setVisible(true);
         gm.ui.bgPanel[3].setVisible(false);
         gm.ui.messageText.setText("");
+
+        gm.stopMusic(gm.currentMusic);
+        gm.currentMusic = gm.fieldMusic2;
+        gm.playMusic(gm.currentMusic);
     }
 
     public void showScene3(){
+        gm.playSE(gm.enterSound);
         gm.ui.bgPanel[2].setVisible(false);
         gm.ui.bgPanel[3].setVisible(true);
         gm.ui.messageText.setText("You enter the cave. What is waiting for you inside...\n\n"
@@ -33,6 +42,9 @@ public class SceneChanger {
         gm.ui.titleLabel.setText("YOU DIED");
         gm.ui.restartButton.setVisible(true);
         gm.ui.restartButton.setText("Click here to restart");
+
+        gm.stopMusic(gm.currentMusic);
+        gm.playSE(gm.deathSound);
     }
 
     public void exitGameOverScreen() {

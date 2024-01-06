@@ -38,7 +38,7 @@ public class UI {
     // Method to create the main visual interface
     public void createMainField() {
         // Creates the main window
-        window = new JFrame();
+        window = new JFrame("Awesome Quest III");
         window.setSize(800, 600);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.getContentPane().setBackground(Color.black);
