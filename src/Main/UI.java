@@ -270,7 +270,7 @@ public class UI {
 
         //SCENE 3
         createBackground(3, "cave-inside.png");
-        createArrowButton(3, 650, 150, 50, 50, "rightArrow.png", "goScene3");
+        createArrowButton(3, 650, 150, 50, 50, "rightArrow.png", "goScene2");
         bgPanel[3].add((bgLabel[3]));
 
     }
